@@ -24,7 +24,7 @@ public class LargestElementInArray
 		System.out.println(temp);
 		
 		// second method
-		ArrayList<Integer>arraylist = new ArrayList<>();
+		ArrayList<Integer>arraylist = new ArrayList();
 		arraylist.add(10) ;
 		arraylist.add(20) ;
 		arraylist.add(50);
