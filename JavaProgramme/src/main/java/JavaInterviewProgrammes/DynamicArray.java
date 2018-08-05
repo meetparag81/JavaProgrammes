@@ -1,6 +1,7 @@
 package JavaInterviewProgrammes;
 
-public class DynamicArray {
+public class DynamicArray
+{
 
 	public static void main(String[] args) 
 	{
