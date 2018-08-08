@@ -9,41 +9,15 @@ public class FindDuplicatewordsfromString
 	public static void main(String[] args) 
 	{
 		String s = "Cirricullum";
-<<<<<<< HEAD
-		int len= s.length();
-		int count = 0;
-		int i , j;
-		
-		char[] arr = s.toCharArray();
-		for ( i =0;i< len-1;i++)
-=======
 		String result = s.toLowerCase();
 		HashMap<Character, Integer>charwordcount = new HashMap<Character, Integer>();
 		char[]arr = result.toCharArray();// convert string into character
 		//check each character of string array[arr]
 		for(Character c :arr)
->>>>>>> branch 'master' of https://github.com/meetparag81/JavaProgrammes.git
 		{
-<<<<<<< HEAD
-			for ( j =i+1;j<len-1;j++ )
-=======
 			if(charwordcount.containsKey(c))
->>>>>>> branch 'master' of https://github.com/meetparag81/JavaProgrammes.git
 			{
-<<<<<<< HEAD
-				if( arr[i]== arr[j])
-				{
-					count++;
-				}
-				
-				 
-			}
-			if(count> 1 )
-			{
-				System.out.println("The duplicate words are "+ arr[i] +" and cont is " + count);
-=======
 				charwordcount.put(c, charwordcount.get(c)+1); //If char is present in charCountMap, incrementing it's count by 1
->>>>>>> branch 'master' of https://github.com/meetparag81/JavaProgrammes.git
 			}
 			else
 			{
@@ -61,11 +35,8 @@ public class FindDuplicatewordsfromString
 			
 		}
 		
-<<<<<<< HEAD
-=======
 		
 		
->>>>>>> branch 'master' of https://github.com/meetparag81/JavaProgrammes.git
 	}
 
 }
