@@ -1,4 +1,4 @@
-package JavainterviewPractice;
+package JavaPractice;
 
 public class Test 
 {

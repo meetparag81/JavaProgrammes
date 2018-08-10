@@ -1,4 +1,4 @@
-package JavaInterviewProgrammes;
+package JavaProgrammesIn;
 
 public class SortTheArray 
 {
@@ -7,7 +7,7 @@ public class SortTheArray
 	{ int i=0;
 		int temp = 0;
 		int arr[] = {10,-5,6,20,30};
-		int lenghth = arr.length;
+		int length = arr.length;
 		
 		for( i=0;i<5;i++)
 		{
@@ -22,7 +22,7 @@ public class SortTheArray
 		}
 			
 		}
-		for(int k=0;k<lenghth;k++)
+		for(int k=0;k<length;k++)
 		{
 			System.out.println(arr[k]);
 		}
