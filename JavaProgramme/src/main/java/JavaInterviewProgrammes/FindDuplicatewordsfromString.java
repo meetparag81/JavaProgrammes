@@ -10,9 +10,8 @@ public class FindDuplicatewordsfromString
 	{
 		String s = "Cirricullum";
 		String result = s.toLowerCase();
-		
-		char[]arr = result.toCharArray();// convert string into character
 		HashMap<Character, Integer>charwordcount = new HashMap<Character, Integer>();
+		char[]arr = result.toCharArray();// convert string into character
 		//check each character of string array[arr]
 		for(Character c :arr)
 		{
