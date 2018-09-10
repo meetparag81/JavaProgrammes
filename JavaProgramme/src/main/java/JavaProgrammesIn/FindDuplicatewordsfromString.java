@@ -25,7 +25,7 @@ public class FindDuplicatewordsfromString
 			}
 		}
 		//Take all keys in one set of character;
-		Set<Character>Keyscharacters = charwordcount.keySet();
+		Set<Character>Keyscharacters = charwordcount.keySet();// .keyset returns a set used to  view keys in map 
 		
 		System.out.println("Duplicate characters in string"+result);
 		for(Character ch:Keyscharacters)

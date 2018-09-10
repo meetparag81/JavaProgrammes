@@ -2,9 +2,9 @@ package Patterns;
 
 public class Nine 
 {
-  /* **1
-	 *1 2
-	 1 2 3*/
+//    1
+//	 1 2
+//	1 2 3
 
 	public static void main(String[] args) 
 	 {

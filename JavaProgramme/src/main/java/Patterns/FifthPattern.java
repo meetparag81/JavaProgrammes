@@ -1,4 +1,12 @@
 package Patterns;
+//* 
+//** 
+//*** 
+//**** 
+//**** 
+//*** 
+//** 
+//* 
 
 public class FifthPattern {
 
